@@ -1,0 +1,8 @@
+{
+  "name": "bash-why",
+  "version": "0.5.0",
+  "description": "Shows under each Bash command why Claude ran it, in the language of the conversation, so the transcript stays readable",
+  "author": { "name": "Matias Sepulveda" },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "bash-why",
+  "owner": { "name": "Matias Sepulveda" },
+  "plugins": [{ "name": "bash-why", "source": "./" }]
+}
