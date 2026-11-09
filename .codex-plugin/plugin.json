@@ -1,0 +1,13 @@
+{
+  "name": "bash-why",
+  "version": "0.6.0",
+  "description": "Shows next to each shell command why Codex ran it, in the language of the conversation, so the transcript stays readable",
+  "keywords": ["shell", "transcript", "hooks"],
+  "hooks": "./codex/hooks.json",
+  "interface": {
+    "displayName": "bash-why",
+    "shortDescription": "See why each shell command ran",
+    "developerName": "Matias Sepulveda",
+    "category": "Productivity"
+  }
+}
