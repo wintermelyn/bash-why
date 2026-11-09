@@ -27,6 +27,15 @@ It works on its own. `/bash-why off` hides the lines and `/bash-why on` brings t
 
 Descriptions follow the language you write in, and folded groups like "Ran 3 shell commands" get one line per command.
 
+## Codex (prototype)
+
+```
+codex plugin marketplace add wintermelyn/bash-why
+codex plugin add bash-why@bash-why
+```
+
+Then approve its hooks in `/hooks`. The purpose shows above each command as a hook line, and `BASH_WHY=off` hides it. [How it differs](docs/codex.md).
+
 ---
 
-[How it works, cost and development](docs/how-it-works.md) · [MIT License](LICENSE)
+[How it works, cost and development](docs/how-it-works.md) · [Codex prototype](docs/codex.md) · [MIT License](LICENSE)
